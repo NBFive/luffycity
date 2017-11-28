@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/luffy.iml" filepath="$PROJECT_DIR$/.idea/luffy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../luffy_vue/.idea/luffy_vue.iml" filepath="$PROJECT_DIR$/../luffy_vue/.idea/luffy_vue.iml" />
+      <module fileurl="file://C:\Users\lucaq\PycharmProjects\项目\s5day85权限管理\.idea\s5day85权限管理.iml" filepath="C:\Users\lucaq\PycharmProjects\项目\s5day85权限管理\.idea\s5day85权限管理.iml" />
+    </modules>
+  </component>
+</project>
