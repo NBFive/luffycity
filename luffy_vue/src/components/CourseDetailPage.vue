@@ -2,8 +2,8 @@
 
   <div>
     <h4>{{ temp }}</h4>
-    <ul v-for="item in courseDetailList">
-      <li>{{ item }}</li>
+    <ul>
+      <li v-for="item in courseDetailList">{{ item }}</li>
     </ul>
   </div>
 </template>

@@ -6,6 +6,7 @@ import course from '@/components/course'
 import courseX from '@/components/courseX'
 import login from '@/components/login'
 import CourseDetailPage from '@/components/CourseDetailPage'
+import buy from '@/components/buy'
 
 // Vue.use(axios);
 
@@ -36,6 +37,11 @@ export default new Router({
       path: '/courseX',
       name: 'courseX',
       component: courseX
+    },
+    {
+      path: '/course/buy',
+      name: 'buy',
+      component: buy
     },
     {
       path: '/login',
