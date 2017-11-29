@@ -13,7 +13,7 @@ export default new Vuex.Store({
       login: 'http://127.0.0.1:8000/auth/',
       course:'http://127.0.0.1:8000/course/',
       courseDetail:'http://127.0.0.1:8000/course/detail/',
-
+      buy:'http://127.0.0.1:8000/course/buy/',
     }
   },
   mutations:{

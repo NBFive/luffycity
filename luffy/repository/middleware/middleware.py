@@ -1,3 +1,5 @@
+from django.http import HttpResponse
+
 
 class MiddlewareMixin:
     def __init__(self,get_response=None):
@@ -15,6 +17,13 @@ class MiddlewareMixin:
         return response
 
 class M1(MiddlewareMixin):
+    def process_request(self, request, *args, **kwargs):
+        if request.method=='OPTIONS':
+            response = HttpResponse()
+            response['Access-Control-Allow-Origin'] = "*"
+            response['Access-Control-Allow-Methods'] = "GET"
+            response['Access-Control-Allow-Headers'] = "Content-Type"
+            return response
 
     def process_response(self,request,response):
         response['Access-Control-Allow-Origin'] = '*'
