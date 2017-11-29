@@ -45,7 +45,6 @@ class AuthView(APIView):
         return response
 
 
-
 class CourseSerializer(serializers.ModelSerializer):
     """
     序列化
@@ -78,7 +77,6 @@ class CourseListView(APIView):
 
         # response['Access-Control-Allow-Origin'] = '*' # 中间件
         return Response(response)
-
 
 
 class CourseDetailSerializer(serializers.ModelSerializer):
