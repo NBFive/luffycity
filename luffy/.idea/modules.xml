@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/luffy.iml" filepath="$PROJECT_DIR$/.idea/luffy.iml" />
       <module fileurl="file://$PROJECT_DIR$/../luffy_vue/.idea/luffy_vue.iml" filepath="$PROJECT_DIR$/../luffy_vue/.idea/luffy_vue.iml" />
+      <module fileurl="file://D:\lucaq\luffy_vue\.idea\luffy_vue.iml" filepath="D:\lucaq\luffy_vue\.idea\luffy_vue.iml" />
       <module fileurl="file://C:\Users\lucaq\PycharmProjects\项目\s5day85权限管理\.idea\s5day85权限管理.iml" filepath="C:\Users\lucaq\PycharmProjects\项目\s5day85权限管理\.idea\s5day85权限管理.iml" />
     </modules>
   </component>
