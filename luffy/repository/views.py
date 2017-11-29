@@ -10,16 +10,12 @@ from repository.utils.auth import LuffyAuthentication
 # from repository.utils.permission import LuffyPermission
 from . import models
 
+from django_redis import get_redis_connection
+
 class AuthView(APIView):
     """
     认证相关视图
     """
-    def options(self, request, *args, **kwargs):
-        response = HttpResponse()
-        response['Access-Control-Allow-Origin'] = "*"
-        response['Access-Control-Allow-Methods'] = "POST"
-        response['Access-Control-Allow-Headers'] = "Content-Type"
-        return response
 
     def post(self,request,*args,**kwargs):
         """
@@ -61,13 +57,6 @@ class CourseSerializer(serializers.ModelSerializer):
 
 
 class CourseListView(APIView):
-
-    def options(self, request, *args, **kwargs):
-        response = HttpResponse()
-        response['Access-Control-Allow-Origin'] = "*"
-        response['Access-Control-Allow-Methods'] = "GET"
-        response['Access-Control-Allow-Headers'] = "Content-Type"
-        return response
 
     def get(self,request,*args,**kwargs):
         from django.core.exceptions import ObjectDoesNotExist
@@ -122,12 +111,6 @@ class CourseDetailSerializer(serializers.ModelSerializer):
 
 
 class CourseDetailView(APIView):
-    def options(self, request, *args, **kwargs):
-        response = HttpResponse()
-        response['Access-Control-Allow-Origin'] = "*"
-        response['Access-Control-Allow-Methods'] = "GET"
-        response['Access-Control-Allow-Headers'] = "Content-Type"
-        return response
 
     def get(self,request,*args,**kwargs):
 
@@ -151,3 +134,11 @@ class CourseDetailView(APIView):
 
         # response['Access-Control-Allow-Origin'] = '*'  # 中间件
         return Response(response)
+
+
+class BuyView(APIView):
+    def get(self,request):
+        conn = get_redis_connection("default")
+        ret = conn.get('zhangwei')
+        ret = ret.decode('utf-8')
+        return Response(ret)
