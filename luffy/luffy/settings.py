@@ -135,13 +135,9 @@ REST_FRAMEWORK = {
 CACHES = {
     "default": {
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://192.168.16.29:6379/0",
+        "LOCATION": "redis://192.168.16.59:6379/0",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
     }
 }
-
-CART_INFO_KEY = 'JFWIO'
-
-BUY_INFO_KEY = 'FEWKJ'
