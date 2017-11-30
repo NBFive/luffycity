@@ -50,18 +50,57 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repository/views.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="247">
               <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
                 <element signature="e#635#750#1" expanded="false" />
+=======
+            <state relative-caret-position="440">
+              <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+                <element signature="e#513#1689#0" expanded="false" />
+                <element signature="e#873#988#1" expanded="false" />
+                <element signature="e#1749#1903#0" expanded="false" />
+                <element signature="e#1942#3025#0" expanded="false" />
+                <element signature="e#3091#4144#0" expanded="false" />
+                <element signature="e#4184#5325#0" expanded="false" />
+                <element signature="e#5359#5676#0" expanded="false" />
+>>>>>>> Stashed changes
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< Updated upstream
       <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
+=======
+      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/repository/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sites.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python36_venv/Lib/site-packages/django/contrib/admin/sites.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="733">
+              <caret line="60" column="8" lean-forward="false" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/luffy/urls.py">
+>>>>>>> Stashed changes
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
             <state relative-caret-position="22">
@@ -183,6 +222,7 @@
         <option value="$PROJECT_DIR$/repository/models.py" />
         <option value="$PROJECT_DIR$/luffy/urls.py" />
         <option value="$PROJECT_DIR$/../luffy_vue/src/components/index.vue" />
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/repository/utils/redishelper.py" />
         <option value="$PROJECT_DIR$/../luffy_vue/src/components/CourseDetailPage.vue" />
         <option value="$PROJECT_DIR$/../luffy_vue/src/router/index.js" />
@@ -190,6 +230,8 @@
         <option value="$PROJECT_DIR$/repository/middleware/middleware.py" />
         <option value="$PROJECT_DIR$/../luffy_vue/src/store/store.js" />
         <option value="$PROJECT_DIR$/luffy/settings.py" />
+=======
+>>>>>>> Stashed changes
         <option value="$PROJECT_DIR$/repository/views.py" />
       </list>
     </option>
@@ -206,7 +248,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+<<<<<<< Updated upstream
 <<<<<<< HEAD
+=======
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/../luffy_vue/node_modules" />
+  </component>
+>>>>>>> Stashed changes
   <component name="ProjectFrameBounds">
 =======
   <component name="NodeModulesDirectoryManager">
@@ -234,6 +282,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< Updated upstream
+=======
+      <pane id="Scope" />
+>>>>>>> Stashed changes
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -337,12 +389,19 @@
 >>>>>>> 20a206e754d801ead3c249dcf5e320f3e1f91fbc
         </subPane>
       </pane>
+<<<<<<< Updated upstream
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
 <<<<<<< HEAD
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+=======
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+>>>>>>> Stashed changes
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../luffy_vue" />
 =======
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
@@ -575,6 +634,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     <frame x="-8" y="-8" width="1296" height="776" extended-state="0" />
     <layout>
@@ -584,12 +644,22 @@
     <editor active="true" />
     <layout>
 >>>>>>> 20a206e754d801ead3c249dcf5e320f3e1f91fbc
+=======
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17961165" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> Stashed changes
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32993197" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+<<<<<<< Updated upstream
 <<<<<<< HEAD
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> Stashed changes
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4074627" sideWeight="0.49676377" order="7" side_tool="false" content_ui="tabs" />
 =======
@@ -630,13 +700,31 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../luffy_vue/src/components/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/repository/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
+<<<<<<< Updated upstream
             <element signature="e#635#750#1" expanded="false" />
+=======
+            <element signature="e#513#1689#0" expanded="false" />
+            <element signature="e#873#988#1" expanded="false" />
+            <element signature="e#1749#1903#0" expanded="false" />
+            <element signature="e#1942#3025#0" expanded="false" />
+            <element signature="e#3091#4144#0" expanded="false" />
+            <element signature="e#4184#5325#0" expanded="false" />
+            <element signature="e#5359#5676#0" expanded="false" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
@@ -697,7 +785,13 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#513#1689#0" expanded="false" />
             <element signature="e#873#988#1" expanded="false" />
+            <element signature="e#1749#1903#0" expanded="false" />
+            <element signature="e#1942#3025#0" expanded="false" />
+            <element signature="e#3091#4144#0" expanded="false" />
+            <element signature="e#4184#5325#0" expanded="false" />
+            <element signature="e#5359#5676#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -773,6 +867,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="dbDummy://dbtable:/887ce9a5/699d5e94-4c06-4884-b4b0-be7518c5589e/main.repository_account">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -799,6 +894,9 @@
         </state>
       </provider>
     </entry>
+=======
+    <entry file="dbDummy://dbtable:/887ce9a5/699d5e94-4c06-4884-b4b0-be7518c5589e/main.repository_account" />
+>>>>>>> Stashed changes
     <entry file="file://$PROJECT_DIR$/repository/utils/commons.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -834,6 +932,7 @@
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/../luffy_vue/node_modules/vuex/package.json" />
     <entry file="file://$PROJECT_DIR$/../luffy_vue/node_modules/vue-cookies/package.json" />
+<<<<<<< Updated upstream
     <entry file="dbDummy://dbtable:/887ce9a5/699d5e94-4c06-4884-b4b0-be7518c5589e/main.repository_token">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -861,6 +960,9 @@
 =======
     <entry file="dbDummy://dbtable:/887ce9a5/699d5e94-4c06-4884-b4b0-be7518c5589e/main.repository_token" />
 >>>>>>> 20a206e754d801ead3c249dcf5e320f3e1f91fbc
+=======
+    <entry file="dbDummy://dbtable:/887ce9a5/699d5e94-4c06-4884-b4b0-be7518c5589e/main.repository_token" />
+>>>>>>> Stashed changes
     <entry file="file://$PROJECT_DIR$/../luffy_vue/node_modules/_vue-cookies@1.5.4@vue-cookies/vue-cookies.js" />
     <entry file="file://$PROJECT_DIR$/../luffy_vue/src/components/HelloWorld.vue">
       <provider selected="true" editor-type-id="text-editor">
@@ -876,10 +978,17 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/repository/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+=======
+    <entry file="file://$PROJECT_DIR$/../luffy_vue/src/components/courseX.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
@@ -930,6 +1039,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     <entry file="dbDummy://dbtable:/887ce9a5/699d5e94-4c06-4884-b4b0-be7518c5589e/main.django_content_type">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -1033,6 +1143,12 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/middleware/clickjacking.py">
+=======
+    <entry file="dbDummy://dbtable:/887ce9a5/699d5e94-4c06-4884-b4b0-be7518c5589e/main.django_content_type" />
+    <entry file="dbDummy://dbtable:/887ce9a5/699d5e94-4c06-4884-b4b0-be7518c5589e/main.repository_course" />
+    <entry file="dbDummy://dbtable:/887ce9a5/699d5e94-4c06-4884-b4b0-be7518c5589e/main.repository_pricepolicy" />
+    <entry file="file://$PROJECT_DIR$/../luffy_vue/src/components/index.vue">
+>>>>>>> Stashed changes
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1112,13 +1228,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/repository/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36_venv/Lib/site-packages/django/contrib/admin/sites.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="733">
+          <caret line="60" column="8" lean-forward="false" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/repository/views.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="247">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
             <element signature="e#635#750#1" expanded="false" />
+=======
+        <state relative-caret-position="440">
+          <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#513#1689#0" expanded="false" />
+            <element signature="e#873#988#1" expanded="false" />
+            <element signature="e#1749#1903#0" expanded="false" />
+            <element signature="e#1942#3025#0" expanded="false" />
+            <element signature="e#3091#4144#0" expanded="false" />
+            <element signature="e#4184#5325#0" expanded="false" />
+            <element signature="e#5359#5676#0" expanded="false" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>

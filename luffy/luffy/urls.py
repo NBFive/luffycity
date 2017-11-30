@@ -23,6 +23,6 @@ urlpatterns = [
     url(r'^auth/', views.AuthView.as_view()),
     url(r'^course/$', views.CourseListView.as_view()),
     url(r'^course/detail/(?P<pk>\d+)/', views.CourseDetailView.as_view()),
-    url(r'^course/buy/', views.BuyView.as_view()),
+    url(r'^cart/(?P<pk>\d+)/', views.CartView.as_view()),
 
 ]

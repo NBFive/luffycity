@@ -6,6 +6,7 @@ import course from '@/components/course'
 import courseX from '@/components/courseX'
 import login from '@/components/login'
 import CourseDetailPage from '@/components/CourseDetailPage'
+import cart from '@/components/cart'
 import buy from '@/components/buy'
 
 // Vue.use(axios);
@@ -37,6 +38,11 @@ export default new Router({
       path: '/courseX',
       name: 'courseX',
       component: courseX
+    },
+    {
+      path: '/cart',
+      name: 'cart',
+      component: cart
     },
     {
       path: '/course/buy',

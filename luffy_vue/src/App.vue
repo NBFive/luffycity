@@ -5,6 +5,7 @@
     <router-link to="/course">课程</router-link>
     <router-link to="/courseX">luffyX</router-link>
     <router-link to="/deeptech">深科技</router-link>
+    <router-link to="/cart">购物车</router-link>
     <router-link to="/login">登录</router-link>
 
     <router-view/>
