@@ -12,6 +12,7 @@ yarn-error.log*
 *.ntvs*
 *.njsproj
 *.sln
+<<<<<<< HEAD
 
 
 # Byte-compiled / optimized / DLL files
@@ -115,3 +116,5 @@ ENV/
 
 # mypy
 .mypy_cache/
+=======
+>>>>>>> parent of ac93052... Revert "简单总价计算，支付页面跳转"
