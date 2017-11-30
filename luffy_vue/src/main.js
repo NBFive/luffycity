@@ -5,6 +5,7 @@ import App from './App'
 import router from './router'
 import store from './store/store'
 import axios from 'axios'
+import $ from 'jquery'
 
 
 Vue.config.productionTip = false
