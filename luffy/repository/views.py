@@ -12,6 +12,9 @@ from . import models
 from luffy import settings
 
 from django_redis import get_redis_connection
+from luffy import settings
+import json
+
 
 
 class AuthView(APIView):
@@ -106,8 +109,7 @@ class CourseDetailSerializer(serializers.ModelSerializer):
                                                               content_type__model='course',
                                                               object_id=obj.course_id)
         for item in price_policy_list:
-            ret.append(
-                {'price_policy_id': item.id, 'valid_period': item.get_valid_period_display(), 'price': item.price})
+            ret.append({'valid_period': item.get_valid_period_display(), 'price': item.price})
         return ret
 
 
@@ -244,3 +246,71 @@ class CartView(APIView):
         # # 返回前端
         response = Response('ok')
         return response
+
+
+class BuyView(APIView):
+    def get(self, request):
+        self.dispatch()
+        conn = get_redis_connection("default")
+        accout_id = '1'
+        accout_id_en = accout_id.encode('utf-8')
+        # d = {accout_id:{
+        #     '4': {
+        #         'price': 9.9,
+        #         'name': '1个月',
+        #         'course': {
+        #             'id': 2,
+        #             'name': 'Python开发21天入门必备',
+        #             'img': '2'
+        #         }
+        #     },
+        #     '2': {
+        #         'price': 19.9,
+        #         'name': '3个月',
+        #         'course': {
+        #             'id': 1,
+        #             'name': '算法入门',
+        #             'img': '1'
+        #         }
+        #     }
+        # }}
+        # conn.hmset(settings.BUY_INFO_KEY,d)
+        # return Response('放入成功')
+
+        # conn.delete(accout_id)
+        # return Response(conn.keys())
+
+        buy_dict = conn.hget(settings.BUY_INFO_KEY,accout_id)
+        print(buy_dict,type(buy_dict))
+        ret = buy_dict.decode('utf-8')
+        print(ret,type(ret))
+        ret = eval(ret)
+        print(ret,type(ret))
+        return Response(ret)
+
+        # d = {
+        #     accout_id:{
+        #         '1':{
+        #             'name': '算法入门',
+        #             'img': '1',
+        #             'selected_policy_id':2,
+        #             'policy_list':[
+        #                 {'id':1,'name':'1个月','price':9.9},
+        #                 {'id':2,'name':'3个月','price':19.9},
+        #                 {'id':3,'name':'12个月','price':99.9},
+        #             ]
+        #         },
+        #         '2':{
+        #             'name': 'Python开发21天入门必备',
+        #             'img': '2',
+        #             'selected_policy_id':1,
+        #             'policy_list':[
+        #                 {'id':4,'name':'1个月','price':9.9},
+        #                 {'id':5,'name':'3个月','price':19.9},
+        #                 {'id':6,'name':'12个月','price':99.9},
+        #             ]
+        #         }
+        #     }
+        # }
+        # conn.hmset(settings.CAR_INFO_KEY,d)
+        # return Response('放入成功')

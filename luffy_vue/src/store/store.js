@@ -15,6 +15,7 @@ export default new Vuex.Store({
       courseDetail:'http://127.0.0.1:8000/course/detail/',
       cart:'http://127.0.0.1:8000/cart/1/',
       buy:'http://127.0.0.1:8000/course/buy/',
+      pay:'http://127.0.0.1:8888/page1/',
     }
   },
   mutations:{
