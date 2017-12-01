@@ -228,18 +228,19 @@ class CartView(APIView):
     def delete(self, request, *args, **kwargs):
         accout_id = kwargs['pk']
         print(accout_id)
-        cart_course_id = request.query_params.get('course_id')
+        print(request.GET.urlencode())
+        cart_course_id = request.query_params
         print(cart_course_id)
         # 取购物车
-        conn = get_redis_connection("default")
-        cart = conn.hget(settings.CART_INFO_KEY, accout_id)
-        cart_dict = eval(cart.decode('utf-8'))
-        print(cart_dict)
-        # 删除购物车
-        cart_dict = cart_dict.pop(cart_course_id)
-        print(cart_dict)
-        # 发送到redis
-        cart = conn.hset(settings.CART_INFO_KEY, accout_id, cart_dict)
-        # 返回前端
+        # conn = get_redis_connection("default")
+        # cart = conn.hget(settings.CART_INFO_KEY, accout_id)
+        # cart_dict = eval(cart.decode('utf-8'))
+        # print(cart_dict)
+        # # 删除购物车
+        # cart_dict = cart_dict.pop(cart_course_id)
+        # print(cart_dict)
+        # # 发送到redis
+        # cart = conn.hset(settings.CART_INFO_KEY, accout_id, cart_dict)
+        # # 返回前端
         response = Response('ok')
         return response
