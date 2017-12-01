@@ -138,6 +138,7 @@ class CourseDetailView(APIView):
 
 class BuyView(APIView):
     def get(self, request):
+        self.dispatch()
         conn = get_redis_connection("default")
         accout_id = '1'
         accout_id_en = accout_id.encode('utf-8')
